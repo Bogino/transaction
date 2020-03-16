@@ -6,6 +6,12 @@ public class Account
     private String accNumber;
     private long money;
 
+
+    public Account(String accNumber, long money){
+        this.accNumber = accNumber;
+        this.money = money;
+    }
+
     public long getMoney() {
         return money;
     }
@@ -27,6 +33,7 @@ public class Account
         this.accNumber = accNumber;
         else throw new IllegalArgumentException();
     }
+
 
 
 }
