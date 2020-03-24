@@ -22,7 +22,6 @@ public class TransactionTest extends TestCase {
     @Override
     protected void setUp() throws Exception {
 
-        Semaphore sem = new Semaphore(1, true);
         alfa = new Bank();
         for (int i = 1; i <= NUMBERS_OF_ACCOUNTS; i++){
             alfa.setAccounts(new Account(String.valueOf(i), MONEY_IN_ACCOUNT));
@@ -53,28 +52,28 @@ public class TransactionTest extends TestCase {
             }
         }
     }
-        public void testSynchWithTwoClientsFromDifferentBanks(){
-        Thread t1 = new Thread(()-> {
-            alfa.transfer(vaska.getAccNumber(), vitka.getAccNumber(), 15000);});
-        Thread t2 = new Thread(()-> {
-            sber.transfer(vitka.getAccNumber(), vaska.getAccNumber(), 12000);});
-        System.out.println("Деньги Василия " + vaska.getMoney());
-        System.out.println("Деньги Витька " + vitka.getMoney());
-        t1.start();
-        t2.start();
-        try {
-            t1.join();
-            t2.join();
-            System.out.println("Деньги Васьки после " + vaska.getMoney());
-            System.out.println("Деньги Витька после " + vitka.getMoney());
-            assertEquals(9997000, vaska.getMoney());
-            assertEquals(10003000, vitka.getMoney());
-
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-    }
-    public void testSynchWithTwoClientsFromSameBank(){
+//        public void testSynchWithTwoClientsFromDifferentBanks(){
+//        Thread t1 = new Thread(()-> {
+//            alfa.transfer(vaska.getAccNumber(), vitka.getAccNumber(), 15000);});
+//        Thread t2 = new Thread(()-> {
+//            sber.transfer(vitka.getAccNumber(), vaska.getAccNumber(), 12000);});
+//        System.out.println("Деньги Василия " + vaska.getMoney());
+//        System.out.println("Деньги Витька " + vitka.getMoney());
+//        t1.start();
+//        t2.start();
+//        try {
+//            t1.join();
+//            t2.join();
+//            System.out.println("Деньги Васьки после " + vaska.getMoney());
+//            System.out.println("Деньги Витька после " + vitka.getMoney());
+//            assertEquals(9997000, vaska.getMoney());
+//            assertEquals(10003000, vitka.getMoney());
+//
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
+//    }
+    public void testSynchWithTwoClientsFromSameBankUnderFraud(){
         Thread t3 = new Thread(()-> {
             sber.transfer(gena.getAccNumber(), vitka.getAccNumber(), 15000);});
         Thread t4 = new Thread(()-> {
@@ -90,6 +89,27 @@ public class TransactionTest extends TestCase {
             System.out.println("Деньги Витька после " + vitka.getMoney());
             assertEquals(9997000, gena.getMoney());
             assertEquals(10003000, vitka.getMoney());
+
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+    public void testSynchWithTwoClientsFromSameBankOverFraud(){
+        Thread t3 = new Thread(()-> {
+            sber.transfer(gena.getAccNumber(), vitka.getAccNumber(), 60000);});
+        Thread t4 = new Thread(()-> {
+            sber.transfer(vitka.getAccNumber(),  gena.getAccNumber(), 70000);});
+        System.out.println("Деньги Гены " + gena.getMoney());
+        System.out.println("Деньги Витька " + vitka.getMoney());
+        t3.start();
+        t4.start();
+        try {
+            t3.join();
+            t4.join();
+            System.out.println("Деньги Гены после " + gena.getMoney());
+            System.out.println("Деньги Витька после " + vitka.getMoney());
+            assertEquals(10010000, gena.getMoney());
+            assertEquals(9990000, vitka.getMoney());
 
         } catch (InterruptedException e) {
             e.printStackTrace();

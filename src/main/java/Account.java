@@ -1,10 +1,11 @@
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Account
+public class Account implements Comparable<String>
 {
     private String accNumber;
     private long money;
+    private boolean isValid = true;
 
 
     public Account(String accNumber, long money){
@@ -34,6 +35,17 @@ public class Account
         else throw new IllegalArgumentException();
     }
 
+    public boolean isValid() {
+        return isValid;
+    }
+
+    public void setValid(boolean valid) {
+        isValid = valid;
+    }
 
 
+    @Override
+    public int compareTo(String accNumber) {
+        return this.getAccNumber().compareTo(accNumber);
+    }
 }

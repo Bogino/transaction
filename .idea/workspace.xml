@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74bdd73b-2664-4fec-8790-f77b3ea5338d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bank.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TransactionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TransactionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TransactionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TransactionTest.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,54 +16,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Account.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-              <folding>
-                <element signature="e#336#337#0" expanded="true" />
-                <element signature="e#364#365#0" expanded="true" />
-                <element signature="e#732#733#0" expanded="true" />
-                <element signature="e#764#765#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Bank.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-265">
-              <caret line="33" column="103" lean-forward="true" selection-start-line="33" selection-start-column="103" selection-end-line="33" selection-end-column="103" />
-              <folding>
-                <element signature="e#2518#2519#0" expanded="true" />
-                <element signature="e#2576#2577#0" expanded="true" />
-                <element signature="e#2629#2630#0" expanded="true" />
-                <element signature="e#2660#2661#0" expanded="true" />
-                <element signature="e#2870#2871#0" expanded="true" />
-                <element signature="e#2931#2932#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TransactionTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="106" column="25" selection-start-line="106" selection-start-column="25" selection-end-line="106" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -72,15 +26,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/Bank.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Account.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TransactionTest.java" />
-      </list>
-    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -97,57 +42,6 @@
   </component>
   <component name="ProjectId" id="1ZMbCHYeyrfjOwUpOv7YFZftV19" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Transaction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Transaction" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Transaction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Transaction" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Transaction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Transaction" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Transaction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Transaction" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Transaction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Transaction" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Transaction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Transaction" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -166,20 +60,8 @@
       <recent name="D:\Projects\Transaction" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="JUnit.TransactionTest">
-    <configuration name="TransactionTest.testSynch" type="AndroidJUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TransactionTest.testSynch" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="Transaction" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TransactionTest" />
@@ -224,95 +106,42 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="TransactionTest - 2020.03.23 at 08h 18m 54s.xml">
-      <configuration name="TransactionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TransactionTest - 2020.03.23 at 08h 19m 47s.xml">
-      <configuration name="TransactionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TransactionTest - 2020.03.23 at 08h 20m 43s.xml">
-      <configuration name="TransactionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TransactionTest - 2020.03.23 at 09h 30m 40s.xml">
-      <configuration name="TransactionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TransactionTest - 2020.03.23 at 09h 30m 47s.xml">
-      <configuration name="TransactionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TransactionTest - 2020.03.23 at 09h 33m 43s.xml">
-      <configuration name="TransactionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TransactionTest - 2020.03.23 at 09h 59m 00s.xml">
-      <configuration name="TransactionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TransactionTest - 2020.03.23 at 10h 35m 49s.xml">
-      <configuration name="TransactionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TransactionTest - 2020.03.23 at 10h 39m 23s.xml">
-      <configuration name="TransactionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TransactionTest - 2020.03.23 at 11h 14m 51s.xml">
-      <configuration name="TransactionTest" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Designer" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="605" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1584908533334">
+    <state x="605" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1585074774404">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="605" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1584908533334" />
+    <state x="605" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1585074774404" />
     <state x="603" y="194" key="FileChooserDialogImpl" timestamp="1584819799420">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="603" y="194" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1584819799420" />
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1584912493910">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1585075051686">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1584912493910" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1584912493909">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1585075051686" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1585075051686">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1584912493909" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1584912493909">
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1585075051686" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1585075051686">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1584912493909" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1584912493910">
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1585075051686" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1585075051686">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1584912493910" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1585075051686" />
     <state width="1557" height="275" key="GridCell.Tab.1.bottom" timestamp="1584903729579">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -347,8 +176,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/TransactionTest.java</url>
-          <line>64</line>
-          <properties />
+          <line>63</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
@@ -358,45 +186,5 @@
         <watch expression="this" />
       </configuration>
     </watches-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding>
-            <element signature="e#336#337#0" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Bank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-265">
-          <caret line="33" column="103" lean-forward="true" selection-start-line="33" selection-start-column="103" selection-end-line="33" selection-end-column="103" />
-          <folding>
-            <element signature="e#2518#2519#0" expanded="true" />
-            <element signature="e#2576#2577#0" expanded="true" />
-            <element signature="e#2629#2630#0" expanded="true" />
-            <element signature="e#2660#2661#0" expanded="true" />
-            <element signature="e#2870#2871#0" expanded="true" />
-            <element signature="e#2931#2932#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TransactionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="106" column="25" selection-start-line="106" selection-start-column="25" selection-end-line="106" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
